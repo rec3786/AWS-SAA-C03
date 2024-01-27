@@ -10,8 +10,13 @@ YAML:
 -Easier to make mistakes with
 
 -All templates have a list of "resorces"
--The resouces section of a template is the only mandatory section of a template
--Description: free text section; only restriction is that if you have both description and a template format version - if you use both, the description *must* follow the "templateformatversion". ..
+-The resouces section of a template is the only mandatory section of a template; without resources, the template wouldn't do anything. 
+-Description: free text section; only restriction is that if you have both description and an AWSTemplateFormatVersion - if you use both, the description *must* follow the "AWStemplateformatversion". The AWSTemplateFormatVersion is the way AWS allow for extending the standards over time. 
+-Metadata controls the UI - how the UI presents the template
+-Parameter - add feilds that prompts the user for more information
+-Mappings - allow you to create lookup tables
+-Conditions - allow decision making in the template; a two-step process. 1: create the condition, 2: Condition is used in Resouces in the template
+-Outputs - outputs from the template being applied
 
 
 
