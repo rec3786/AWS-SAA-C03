@@ -1,3 +1,17 @@
 ##Public vs Private
 Know the difference between AWS Public and AWS Private - focuses on the networking aspect
 
+## CloudFormation Basics
+
+Tool that lets you create, update, delete reources through a template in AWS. 
+Templates written in YAML or JSON
+
+YAML: 
+-Easier to make mistakes with
+
+-All templates have a list of "resorces"
+-The resouces section of a template is the only mandatory section of a template
+-Description: free text section; only restriction is that if you have both description and a template format version - if you use both, the description *must* follow the "templateformatversion". ..
+
+
+
